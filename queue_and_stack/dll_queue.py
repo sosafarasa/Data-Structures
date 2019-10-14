@@ -14,7 +14,7 @@ class Queue:
 
     def dequeue(self):
         if len(self.storage) > 0:
-            return self.storage.pop()
+            return self.storage.remove_from_head()
 
     def len(self):
         return len(self.storage)
