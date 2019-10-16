@@ -64,7 +64,9 @@ if __name__ == "__main__":
 
     print(text)
 
-    text.join_string("blahhhhhhhhhhhblahhhhhhblahhhh")
+    text.join_string("supercalifragilisticexpialidocious")
+
+    print(text)
 
     text.append("is")
     text.join(TextBuffer("weird"))
@@ -74,7 +76,10 @@ if __name__ == "__main__":
     text.delete_back(6)
     print(text)
 
-    text.prepend("prepend worked-- ")
+    text.prepend("Hey! ")
+    print(text)
+
+    text.delete_front(5)
     print(text)
 
 
